@@ -11,7 +11,7 @@
 <body>
     <h1>Bibliothèque</h1>
 
-    <a href="ajout/ajout.php">Ajouter un livre</a>
+    <a href="ajout/ajouter.php">Ajouter un livre</a>
     <br>
     <br>
     <a href="select/ajoutProprio.php">Visualier les livres d'un propiétaire</a>
