@@ -5,7 +5,7 @@ if (isset($_POST['titre'], $_POST['auteur'], $_POST['genre'], $_POST['proprio'])
     $auteur = $_POST['auteur'];
     $genre = $_POST['genre'];
     $proprio = $_POST['proprio'];
-    $conn = new mysqli($servername = "localhost", $username = "root", $password = "", $dbname = "livres");
+    $conn = new mysqli($servername = "localhost", $username = "root", $password = "", $dbname = "biblio");
     if ($conn->connect_error) {
         die("La connexion a échoué : " . $conn->connect_error);
     }
